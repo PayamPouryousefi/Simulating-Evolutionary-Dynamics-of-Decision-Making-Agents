@@ -1,7 +1,10 @@
-Simulating Evolutionary Dynamics of Decision-Making Agents
+**Simulating Evolutionary Dynamics of Decision-Making Agents**
+
+
 This code implements a mathematical model from Toupo et al. (2015) analyzing periodic dynamics between controlled and automatic decision-making agent populations. The system of differential equations explores evolutionary game theory concepts, including competitive advantages and diminishing returns, to determine conditions that enable agent type coexistence or oscillations.
 
 **Model Overview**
+
 The primary state variables are:
 
 * x(t): Fraction of controlled agents
@@ -9,18 +12,53 @@ The primary state variables are:
 
 Key parameters:
 
-ρ: Probability of locating resources
-α: Extent of diminishing returns
-τ: Lag on state impacts
+* ρ: Probability of locating resources
+* α: Extent of diminishing returns
+* τ: Lag on state impacts
+
 
 See the original paper for full model details.
 
+
+**Requirements**
+
+The simulation requires the following Python packages:
+
+* numpy
+* scipy
+* matplotlib
+
+
+To install requirements:
+
+```
+pip install -r requirements.txt
+```
+
+Older versions may work but have not been tested. It is advised to create and activate a dedicated virtual environment for running the simulation cleanly.
+
+
+For example, on Linux/macOS:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+On Windows
+```
+python3 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+With the virtual environment activated, run the simulation script normally.
 
 **Usage:**
 
 The simulation is implemented in Python. To run:
 
-```Terminal
+```
 python src\simulate_agents.py
 ```
 
