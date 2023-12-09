@@ -21,7 +21,7 @@ See the original paper for full model details.
 The simulation is implemented in Python. To run:
 
 ```Terminal
-python simulate_agents.py
+python src\simulate_agents.py
 ```
 
 The script loads parameters, integrates the equations, and plots the results. See the code for analysis details.
