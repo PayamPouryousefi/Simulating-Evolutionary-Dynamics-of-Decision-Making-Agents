@@ -1,4 +1,4 @@
-**Simulating Evolutionary Dynamics of Decision-Making Agents**
+#Simulating Evolutionary Dynamics of Decision-Making Agents
 
 
 This code implements a mathematical model from Toupo et al. (2015) analyzing periodic dynamics between controlled and automatic decision-making agent populations. The system of differential equations explores evolutionary game theory concepts, including competitive advantages and diminishing returns, to determine conditions that enable agent type coexistence or oscillations.
